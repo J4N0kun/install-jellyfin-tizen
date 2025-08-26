@@ -1,3 +1,9 @@
+# Personal infos
+Samsung DUID
+XTCJJ2SSYM3B4
+
+docker run --rm -v "$(pwd)/author.p12":/certificates/author.p12 -v "$(pwd)/distributor.p12":/certificates/distributor.p12 ghcr.io/georift/install-jellyfin-tizen 10.19.78.145 Jellyfin "" 'CertPassw0rd!'
+
 # Install Jellyfin for Samsung TV
 
 This project makes it easy to install [Jellyfin for Samsung TV](https://github.com/jellyfin/jellyfin-tizen) by automating the environment configuration with Docker.
